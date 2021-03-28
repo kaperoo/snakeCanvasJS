@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(46, 46, 46);
+    font-family: monospace;
+}
+.title{
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1600px;
+    width: 90%;
+}
+#snekCanvas{
+    display: block;
+    max-width: 1600px;
+    max-height: 800px;
+    width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid white;
+    background-color: teal;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.btns{
+    display:block;
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px;
+    max-height: 100px;
+    max-width: 100px;
+    width: 20vw;
+    height: 20vw;
+    color: white;
+    text-align: center;
+    background-color: rgb(17, 17, 17);
+    border: none;
+}
